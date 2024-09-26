@@ -1,0 +1,84 @@
+:root {
+  /* Colors */
+  --body-bg: #fcfdfe;
+  --body-secondary-bg: #e9effb;
+  --primary-color: #2864eb;
+  --secondary-color: #454f96;
+  --main-text-color: #0c1e43;
+  --tertiary-text-color: #163168;
+  --invert-text-color: #ffffff;
+  --error-color: #f50000;
+  --error-color-bg: #ffe8e8;
+  --success-color: #00aa8c;
+  --success-color-bg: #f1fffd;
+
+  --border-bottom-color: #e9effb;
+
+  /* Fonts */
+  --font-family-rubik: 'Rubik', sans-serif;
+  --main-font: var(--font-family-rubik);
+  --title-color: var(--main-text-color);
+  --text-caption-color: var(--secondary-color);
+  --amount-color: var(--success-color);
+
+  /* Button */
+  --button-default-background: var(--primary-color);
+  --button-default-background-hover: var(--main-text-color);
+  --button-default-color: #ffffff;
+  --button-default-color-hover: #ffffff;
+  --button-secondary-background: var(--primary-color);
+  --button-secondary-color: #ffffff;
+  --button-secondary-color-hover: var(--primary-color);
+  --button-secondary-background-hover: #ffffff;
+  --button-cancel-background: #ffffff;
+  --button-cancel-border: #cccccc;
+  --button-cancel-color: #333333;
+  --button-outline-color: #ffffff;
+  --button-disabled-background: #f5f8fc;
+  --button-disabled-color: #c6d6f7;
+  --button-link-color: var(--primary-color);
+  --button-link-color-hover: var(--primary-color);
+  --button-link-secondary-color: var(--success-color);
+  --button-link-secondary-color-hover: #007963;
+  --button-disabled-link-color: #454f96;
+  --button-primary-link-color-hover: #123890;
+  --button-disabled-primary-link-color: #bae9e0;
+
+  /* Forms */
+  --label-color: #858cc2;
+  --input-background: transparent;
+  --input-border: #e9effb;
+  --input-placeholder-color: #858cc2;
+
+  /* NProgress */
+  --nprogress-color: var(--primary-color);
+
+  /* Sliders Calculator */
+  --handle-bg-color: #ffffff;
+  --handle-fill-color: var(--primary-color);
+  --handle-fill-color-secondary: #08b899;
+  --handle-border-color: var(--primary-color);
+  --handle-border-color-secondary: #08b899;
+  --rail-bg-color: #c6d6f7;
+  --highlight-color: #00aa8c;
+  --border-title-color: #c6d6f7;
+  --border-bottom-color: var(--body-secondary-bg);
+
+  /* 2FA */
+  --digit-input-border: #e9effb;
+  --digit-input-color: #000000;
+  --digit-input-background: #ffffff;
+
+  /* Timer */
+  --timer-text-color: #c4c4c4;
+
+  /* Notification */
+  --notification-success-bg: var(--success-color-bg);
+  --notification-success-color: var(--success-color);
+  --notification-error-bg: var(--error-color-bg);
+  --notification-error-color: var(--error-color);
+  --notification-warning-bg: #f5f8fc;
+  --notification-warning-color: #f5f8fc;
+  --notification-info-bg: #f5f8fc;
+  --notification-info-color: #f5f8fc;
+}

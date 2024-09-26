@@ -1,0 +1,67 @@
+@import 'src/styles/mixins.module.scss';
+
+.header {
+  border-bottom: 1px solid var(--border-bottom-color);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include media-breakpoint-down(md) {
+    padding: 0;
+    border-bottom: none;
+  }
+}
+
+.headerLogo {
+  @include media-breakpoint-down(md) {
+    position: absolute;
+    top: -48px;
+    left: 20px;
+    img {
+      width: 67px;
+    }
+  }
+}
+
+.linkBackToMerchant {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  text-align: right;
+  color: var(--main-text-color);
+  text-decoration: none;
+  @include media-breakpoint-down(md) {
+    position: absolute;
+    line-height: 24px;
+    font-size: 16px;
+    top: -50px;
+    right: 10px;
+  }
+}
+
+.headerNav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.infoUser {
+  display: flex;
+}
+
+.textUser {
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  &:last-child {
+    &:before {
+      content: '|';
+      margin: 0 10px 0 0;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    font-size: 12px;
+  }
+}
