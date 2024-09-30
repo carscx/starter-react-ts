@@ -1,5 +1,4 @@
 import { FC } from 'react'
-// import { useTranslation } from 'react-i18next'
 import { Link, useNavigate } from 'react-router-dom'
 import logo from 'assets/react.svg'
 import { ArrowLeftIcon } from 'components/Icons'

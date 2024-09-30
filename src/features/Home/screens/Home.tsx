@@ -1,10 +1,11 @@
 import { type FC } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const Home: FC = () => {
+  const { t } = useTranslation('features', { keyPrefix: 'Home' })
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the Home component.</p>
+      <h1>{t('welcome')}</h1>
     </div>
   )
 }
